@@ -1,0 +1,27 @@
+
+body {
+  font-family: 'Prompt', sans-serif;
+  background-color: #e3f2fd;
+  padding: 20px;
+}
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input, select, button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+button {
+  background-color: #2196f3;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
