@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>พี่พลังใจ - แบบประเมินก่อนเข้าใช้งาน</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>พี่พลังใจ 💙</h1>
+    <p>ฟอร์มประเมินก่อนเข้าใช้งานระบบ</p>
+    <form id="intake-form">
+      <label for="name">ชื่อหรือนามแฝง:</label><br>
+      <input type="text" id="name" name="name" required /><br><br>
+
+      <label for="age">อายุ:</label><br>
+      <input type="number" id="age" name="age" required /><br><br>
+
+      <label for="intent">คุณต้องการเลิกสารเสพติดหรือไม่?</label><br>
+      <select id="intent" name="intent">
+        <option value="สนใจ">สนใจ</option>
+        <option value="ไม่สนใจ">ไม่สนใจ</option>
+      </select><br><br>
+
+      <button type="submit">ส่งแบบฟอร์ม</button>
+    </form>
+    <p id="response"></p>
+  </div>
+  <script src="form.js"></script>
+</body>
+</html>
