@@ -8,7 +8,15 @@ document.getElementById("intake-form").addEventListener("submit", function(e) {
     intent: document.getElementById("intent").value
   };
 
-  fetch("https://script.google.com/macros/s/AKfycbz3uKAJTfi9YTz3l3yc7NEJ0xoAvdo_0BoSzfKdFOmPOFXt-xy_KMrSQucTAp39jBMtPw/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbyvOBZU4RiiH4EkD8pBZ0nReKggNhwbaJDCqFBs7T0dXZjOWxV3eLCFnajT1F8OOPx9/exec", {
+  method: "POST",
+  mode: "no-cors",
+  headers: {
+    "Content-Type": "application/json"
+  },
+  body: JSON.stringify(data)
+});
+
     method: "POST",
     mode: "no-cors",
     headers: {
