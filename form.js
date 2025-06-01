@@ -7,7 +7,7 @@ document.getElementById("intake-form").addEventListener("submit", function(e) {
     intent: form.intent.value
   };
 
-  fetch("https://script.google.com/macros/s/AKfycbx8F6QPt_MJWgrrl3hcgDlyU7lTWTPV1SB8KR32ZuXZWHr3glvRJbXWv4hhrc_Mq4Tk/exec", {
+  fetch("https://script.google.com/macros/s/AKfycbz3uKAJTfi9YTz3l3yc7NEJ0xoAvdo_0BoSzfKdFOmPOFXt-xy_KMrSQucTAp39jBMtPw/exec", {
     method: "POST",
     mode: "no-cors",
     headers: {
